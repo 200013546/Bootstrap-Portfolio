@@ -3,108 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <title>About | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/breset.css"> -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
   <!-- Bootstrap CSS -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-
-<div class="wrapper">
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Alan McCabe</a>
-      <nav class="navbar navbar-default ">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </header>
-
+<div class="header-wrapper">
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
-        <div class="main-section">
-          <div class="page-header">
-            <h1>About Me</h1>
+      <div class="col-md-4" style="height: 70px">
+        <h1 class="header">Alan McCabe</h1>
+      </div>
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+          <div class="text-center">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <img src="assets/images/cat.jpg" class="auth-image" alt="placeholder">
-          <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
-          <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
+        </nav>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="jumbotron-add">
+            <h2 class="about">About me</h2>
+            <hr>
+            <div class="">  
+              <img src="assets/images/1930676_100829899936981_6684967_n.jpg" class="pull-left img" alt="placeholder" height="200">
+              <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
+              <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
+              <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
+            </div>
         </div>
-        <div class="col-md-4">
-          <div id="sidebar">
-            <div class="sidebar-header">
-                <h3>Bootstrap Sidebar</h3>
-            </div>
-    
-            <ul class="list-unstyled components">
-                <p>Dummy Heading</p>
-                <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="#">Home 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 3</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <a href="#">Page 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 3</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-          </div>
-            </div>
+      </div>
     </div>
-</div>
-  <div class="push"></div>
-</div>
-
-  <footer>
-    <div class="container">
-      &copy; Copyright
-    </div>
-  </footer>
-</body>
+  </div>
+    <footer>
+        <div class="container">
+          &copy; Copyright
+        </div>
+      </footer>
+    </body>
 </html>
